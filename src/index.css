@@ -126,6 +126,7 @@
   @apply bg-[linear-gradient(107deg,#FF9A60_-11.37%,#062630_61.84%)];
 }
 
-.hero-bg {
+.hero-bg,
+.grid-bg {
   background-image: url('/images/pattern-light-bg.svg');
 }
