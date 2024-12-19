@@ -1,4 +1,5 @@
 import MaxWidthWrapper from './MaxWidthWrapper'
+import SectionHeader from './SectionHeader'
 
 const steps: { step: number; title: string }[] = [
   {
@@ -21,13 +22,14 @@ const steps: { step: number; title: string }[] = [
 
 const TechJourney = () => {
   return (
-    <section className='hidden lg:block'>
+    <section className='hidden lg:block mb-32'>
       <MaxWidthWrapper className=''>
-        <div className='grid-bg bg-salmon-50 rounded-xl py-20'>
+        <div className='grid-bg bg-salmon-50 rounded-xl py-20 relative overflow-hidden'>
+          <div className='size-[684px] rounded-full  bg-[#9CC9DA] absolute -bottom-2/3 -right-1/3 blur-[300px]' />
           <div className='py-20'>
-            <h2 className='font-semibold text-[50px] leading-[120%] text-center mb-16'>
+            <SectionHeader className='text-center mb-16'>
               Your tech reading journey
-            </h2>
+            </SectionHeader>
             <div className='flex gap-12 px-4'>
               {steps.map((step) => (
                 <div key={step.step} className='flex flex-1 gap-7 flex-col'>
