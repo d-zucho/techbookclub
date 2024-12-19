@@ -25,9 +25,9 @@ const TechJourney = () => {
     <section className='hidden lg:block mb-32'>
       <MaxWidthWrapper className=''>
         <div className='grid-bg bg-salmon-50 rounded-xl py-20 relative overflow-hidden'>
-          <div className='size-[684px] rounded-full  bg-[#9CC9DA] absolute -bottom-2/3 -right-1/3 blur-[300px]' />
-          <div className='py-20'>
-            <SectionHeader className='text-center mb-16'>
+          <div className='size-[684px] rounded-full  bg-[#9CC9DA] absolute -bottom-2/3 -right-1/3 blur-[300px] z-0' />
+          <div className='py-20 z-10'>
+            <SectionHeader className='text-center mb-16 relative z-10'>
               Your tech reading journey
             </SectionHeader>
             <div className='flex gap-12 px-4'>
