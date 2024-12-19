@@ -22,22 +22,6 @@
   /* typography */
 }
 
-.preset-1 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: bold;
-  font-size: 62px;
-  line-height: 120%;
-  letter-spacing: -2px;
-}
-
-.preset-1-mobile {
-  font-family: 'Martian Mono', monospace;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 120%;
-  letter-spacing: -2px;
-}
-
 .preset-2 {
   font-family: 'Martian Mono', monospace;
   font-weight: bold;
@@ -140,4 +124,8 @@
 
 .my-text-gradient {
   @apply bg-[linear-gradient(107deg,#FF9A60_-11.37%,#062630_61.84%)];
+}
+
+.hero-bg {
+  background-image: url('/images/pattern-light-bg.svg');
 }

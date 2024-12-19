@@ -1,10 +1,11 @@
 import Button from './Button'
 import MaxWidthWrapper from './MaxWidthWrapper'
 import Logo from '/images/logo.svg'
+import HeroRating from "./HeroRating.tsx";
 
 const Hero = () => {
   return (
-    <div>
+    <div className='hero-bg'>
       <MaxWidthWrapper>
         <div className='py-8'>
           <img src={Logo} alt='' />
@@ -25,6 +26,11 @@ const Hero = () => {
             className='bg-salmon-50 mt-8 mb-5'
             icon='/images/icon-arrow-down.svg'
           />
+          <div>
+            <div>
+              <HeroRating />
+            </div>
+          </div>
         </div>
       </MaxWidthWrapper>
     </div>
