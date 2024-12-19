@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import Features from './components/Features'
 import Hero from './components/Hero'
 
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Hero />
         <Features />
+        <About />
       </div>
     </>
   )
