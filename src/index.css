@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --neutral-100: #faf5f3;
+  --neutral-200: #e6e1df;
+  --neutral-700: #385159;
+  --neutral-900: #062630;
+
+  --salmon-50: hsl(22.2, 100%, 96.9%);
+  --salmon-100: hsl(22.2, 100%, 91%);
+  --salmon-500: hsl(21.8, 98.6%, 71.6%);
+
+  /* typography */
+}
+
+.preset-1 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.preset-1-mobile {
+  font-family: 'Martian Mono', monospace;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.preset-2 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.preset-2 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+}
+
+.preset-2-mobile {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -2px;
+}
+
+.preset-3 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.preset-3-mobile {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.preset-4 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.preset-4-mobile {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.preset-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.preset-5-mobile {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.preset-6 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.preset-6-mobile {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+/* .preset-7 {
+  font-family: 'Martian Mono', monospace;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -1px;
+} */
+
+.preset-7 {
+  @apply text-sm leading-[120%] tracking-[-1px] font-semibold font-mono;
+}
+
+.my-text-gradient {
+  @apply bg-[linear-gradient(107deg,#FF9A60_-11.37%,#062630_61.84%)];
+}
