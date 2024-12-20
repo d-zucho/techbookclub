@@ -130,7 +130,3 @@
 .grid-bg {
   background-image: url('/images/pattern-light-bg.svg');
 }
-
-.secondOptionStyles {
-  @apply grid-bg py-10;
-}

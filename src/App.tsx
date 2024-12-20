@@ -4,6 +4,7 @@ import Features from './components/Features'
 import Hero from './components/Hero'
 import MembershipOptions from './components/MembershipOptions'
 import TechJourney from './components/TechJourney'
+import Testimonials from './components/Testimonials'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <TechJourney />
         <MembershipOptions />
+        <Testimonials />
       </div>
     </>
   )

@@ -1,5 +1,5 @@
 import Avatars from '/images/image-avatars.webp'
-import Star from '/images/icon-star.svg'
+import FiveStarRating from './FiveStarRating'
 const HeroRating = () => {
   return (
     <div>
@@ -7,13 +7,7 @@ const HeroRating = () => {
         <img src={Avatars} alt='Avatars' className='w-[110px] h-10' />
 
         <div className='flex flex-col'>
-          <div className='flex items-center'>
-            <img src={Star} alt='' />
-            <img src={Star} alt='' />
-            <img src={Star} alt='' />
-            <img src={Star} alt='' />
-            <img src={Star} alt='' />
-          </div>
+          <FiveStarRating />
           <p className='text-sm font-mono tracking-tighter text-neutral-700'>
             200+ developers already joined
           </p>
