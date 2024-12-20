@@ -50,7 +50,7 @@ const PriceOption = ({ index, className, option }: PriceOptionProps) => {
 
       {/* button */}
       <Button
-        className='mt-8 uppercase bg-salmon-50 font-mono font-semibold lg:text-lg z-10 shadow-md'
+        className='mt-8 uppercase bg-salmon-50 font-mono font-semibold lg:text-lg z-10 shadow-md hover:bg-gradient-2 transition ease-in-out duration-500'
         title={option.buttonText}
       />
       {index === 1 && (

@@ -27,7 +27,7 @@ const Hero = () => {
               </p>
               <Button
                 title='Review membership options'
-                className='bg-salmon-50 mt-8 mb-5'
+                className='bg-salmon-50 mt-8 mb-5 hover:bg-gradient-2 transition-all duration-1000'
                 icon='/images/icon-arrow-down.svg'
               />
               <div>

@@ -12,7 +12,7 @@ const CTA = () => {
             Ready to debug your reading list?
           </SectionHeader>
           <Button
-            className='text-base font-semibold tracking-[-1px] text-white flex border-2 border-white w-full sm:w-fit mx-auto mt-10 mb-6'
+            className='text-base font-semibold tracking-[-1px] text-white flex border-2 border-white w-full sm:w-fit mx-auto mt-10 mb-6 hover:bg-gradient-3 transition-all duration-1000'
             title='REVIEW MEMBERSHIP OPTIONS'
             icon='/images/icon-arrow-up.svg'
           />

@@ -22,101 +22,11 @@
   /* typography */
 }
 
-.preset-2 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 120%;
-  letter-spacing: -2px;
+@layer utilities {
+  .gradient-light {
+    background-image: 'linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%)';
+  }
 }
-
-.preset-2 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 130%;
-  letter-spacing: -2px;
-}
-
-.preset-2-mobile {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 130%;
-  letter-spacing: -2px;
-}
-
-.preset-3 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 130%;
-  letter-spacing: -1px;
-}
-
-.preset-3-mobile {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 130%;
-  letter-spacing: -1px;
-}
-
-.preset-4 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 110%;
-  letter-spacing: -1px;
-}
-
-.preset-4-mobile {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 110%;
-  letter-spacing: -1px;
-}
-
-.preset-5 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  letter-spacing: -0.5px;
-}
-
-.preset-5-mobile {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 140%;
-  letter-spacing: -0.5px;
-}
-
-.preset-6 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -1px;
-}
-
-.preset-6-mobile {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -1px;
-}
-
-/* .preset-7 {
-  font-family: 'Martian Mono', monospace;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 120%;
-  letter-spacing: -1px;
-} */
 
 .preset-7 {
   @apply text-sm leading-[120%] tracking-[-1px] font-semibold font-mono;
