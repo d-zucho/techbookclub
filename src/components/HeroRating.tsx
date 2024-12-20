@@ -1,6 +1,12 @@
 import Avatars from '/images/image-avatars.webp'
 import FiveStarRating from './FiveStarRating'
-const HeroRating = () => {
+import { cn } from '../utils/cn'
+
+interface HeroRatingProps {
+  className?: string
+}
+
+const HeroRating = ({ className }: HeroRatingProps) => {
   return (
     <div>
       <div className='flex items-center gap-4'>
@@ -8,7 +14,12 @@ const HeroRating = () => {
 
         <div className='flex flex-col'>
           <FiveStarRating />
-          <p className='text-sm font-mono tracking-tighter text-neutral-700'>
+          <p
+            className={cn(
+              'text-sm font-mono tracking-tighter text-neutral-700',
+              className
+            )}
+          >
             200+ developers already joined
           </p>
         </div>

@@ -3,7 +3,7 @@ import MaxWidthWrapper from './MaxWidthWrapper'
 
 const Testimonials = () => {
   return (
-    <section className='mb-20'>
+    <section className='mb-32'>
       <MaxWidthWrapper className='lg:text-center lg:flex lg:flex-col lg:justify-center'>
         <div className='lg:flex lg:justify-center'>
           <FiveStarRating />

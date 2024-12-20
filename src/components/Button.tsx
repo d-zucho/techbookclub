@@ -11,7 +11,7 @@ const Button = ({ title, icon, className }: ButtonProps) => {
     <>
       <button
         className={cn(
-          'px-6 py-5 text-base uppercase rounded-[20px] text-neutral-900 border font-semibold border-neutral-900 sm:text-lg',
+          'px-6 py-5 text-base uppercase rounded-lg tracking-[-1px] leading-[130%] text-neutral-900 border font-semibold border-neutral-900 sm:text-lg',
           className
         )}
       >
